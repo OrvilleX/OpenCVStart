@@ -68,4 +68,12 @@ def print_hi(name):
 
 # 按间距中的绿色按钮以运行脚本。
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    img = cv2.imread("img/matou.png")
+    print("shape=", img.shape)
+    print("size=", img.size)
+    print("dtype=", img.dtype)
+    img = cv2.imread("img/1.jpg")
+    print("shape=", img.shape)
+    print("size=", img.size)
+    print("dtype=", img.dtype)
+    print_hi('pycharm')

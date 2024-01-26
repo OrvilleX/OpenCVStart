@@ -7,6 +7,7 @@
 * `python`: 3.9.7
 * `opencv-python`: 4.5.5.64  
 * `numpy`: 1.22.3  
+* `imutils`: 0.5.4
 
 需要注意OpenCV去读RGB模式的彩色图像将以BGR方式存储至ndarray中，需要特别注意。  
 
